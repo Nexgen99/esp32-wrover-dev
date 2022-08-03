@@ -1,0 +1,24 @@
+{
+    "name": "ESP32-WROVER-DEV",
+    "description": "",
+    "dependencies": {
+        "espressif-esp32-devkit-c": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "0.15.66",
+        "targetId": "maker"
+    },
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "pyprj",
+    "languageRestriction": "python-only"
+}
